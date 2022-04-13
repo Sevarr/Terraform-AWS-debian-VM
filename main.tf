@@ -7,6 +7,7 @@ resource "null_resource" "main" {
   }
   provisioner "remote-exec" {
     inline = [
+      "delay 10",
       "sudo apt update -y",
       "sudo apt upgrade -y",
       "sudo apt install software-properties-common apt-transport-https curl -y",
