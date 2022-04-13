@@ -27,8 +27,8 @@ resource "null_resource" "main" {
 
   provisioner "remote-exec" {
     inline = [
-        "sudo rm /var/www/html/index.html",
-        "sudo systemctl start apache2",
+      "sudo rm /var/www/html/index.html",
+      "sudo systemctl start apache2",
     ]
   }
 }

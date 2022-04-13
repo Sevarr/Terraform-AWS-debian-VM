@@ -20,6 +20,7 @@ Default ssh key name terraform-key
 
 # Instructions
 Please follow the instructions below to stand up Debian VM in AWS EC2 using Terraform:
+git clone https://github.com/Sevarr/debianVM_on_AWS_via_Terraform
 terraform init
 terraform plan
 terraform apply -auto-approve
