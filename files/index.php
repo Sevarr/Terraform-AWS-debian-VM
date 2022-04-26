@@ -1,7 +1,7 @@
 </DOCKTYPE html>
 <html>
     <head>
-        <title>Hello eDokumenty</title>
+        <title>Hello world</title>
     <style>
         body {
             background-color: lightblue;
@@ -17,7 +17,7 @@
     </head>
     <body>
         <h1>
-            <?php echo '<p>Hello eDokumenty</p>'; ?>
+            <?php echo '<p>Hello world</p>'; ?>
         </h>
     </body>
 </html>
